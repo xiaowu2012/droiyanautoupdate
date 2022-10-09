@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AutoUpdate">
+</Property><Property Name="Solution File" Value="D:\决战所有\决战世界自动更新代码\AutoUpdate.sln">
+</Property><Property Name="User Options File" Value="D:\决战所有\决战世界自动更新代码\AutoUpdate.suo">
+</Property><Property Name="Date" Value="2022年10月7日">
+</Property><Property Name="Time" Value="16:20">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AutoUpdate.sln" Description="File successfully backed up as D:\决战所有\决战世界自动更新代码\AutoUpdate.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="AutoUpdate.suo" Description="File successfully backed up as D:\决战所有\决战世界自动更新代码\AutoUpdate.suo.old">
+</Event><Event ErrorLevel="0" Project="AutoUpdateClient" Source="AutoUpdateClient\AutoUpdateClient.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="AutoUpdateClient" Source="AutoUpdateClient\AutoUpdateClient.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="AutoUpdateClient" Source="AutoUpdateClient\AutoUpdateClient.vcproj" Description="Project file successfully backed up as 'D:\决战所有\决战世界自动更新代码\AutoUpdateClient\AutoUpdateClient.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="AutoUpdateClient" Source="AutoUpdateClient\AutoUpdateClient.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="AutoUpdateClient" Source="AutoUpdateClient\AutoUpdateClient.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AutoUpdateConfig" Source="AutoUpdateConfig\AutoUpdateConfig.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="AutoUpdateConfig" Source="AutoUpdateConfig\AutoUpdateConfig.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="AutoUpdateConfig" Source="AutoUpdateConfig\AutoUpdateConfig.vcproj" Description="Project file successfully backed up as 'D:\决战所有\决战世界自动更新代码\AutoUpdateConfig\AutoUpdateConfig.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="AutoUpdateConfig" Source="AutoUpdateConfig\AutoUpdateConfig.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="AutoUpdateConfig" Source="AutoUpdateConfig\AutoUpdateConfig.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Zlib" Source="ZLib\Zlib.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="Zlib" Source="ZLib\Zlib.vcproj" Description="Project file successfully backed up as 'D:\决战所有\决战世界自动更新代码\ZLib\Zlib.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="Zlib" Source="ZLib\Zlib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Zlib" Source="ZLib\Zlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AutoUpdate.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AutoUpdate.sln" Description="Converted">
+</Event></UpgradeLog>
