@@ -137,6 +137,22 @@ BOOL CAutoUpdateClientApp::InitInstance()
 		return false;
 	}
 
+	//AfxMessageBox(_T("AutoUpdate - 分离前的updateurl: ") + sCommond); //xiaowujz.com
+
+	if(StringContainOtherString(sCommond,_T("-MANUAL"))) { 
+		//AfxMessageBox(_T("检测到MANNUL, 是新版本")); //xiaowujz.com
+
+		int nTokenPos = 0;
+		CString strToken = sCommond.Tokenize(_T(" "), nTokenPos);
+		strUrl = strToken;
+
+		//AfxMessageBox(_T("AutoUpdate - 分离后的updateurl: ") + strUrl); //xiaowujz.com
+
+	} else {
+		AfxMessageBox(_T("你正在用旧版本的客户端，请运行新版登陆器")); //xiaowujz.com
+		return false;
+	}
+
 	CAutoUpdateClientDlg dlg;
 	dlg.SetUpdateUrl(strUrl);
 	dlg.m_InstanceChecker.ActivateChecker();
