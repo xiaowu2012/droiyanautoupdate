@@ -771,8 +771,8 @@ CAutoUpdateClientDlg::CAutoUpdateClientDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDI_APPMAIN);
 	m_bNeedExecute = FALSE;
-	m_ExecuteFile = _T("xwlogin.exe");   //必须与登录器名字一致
-	m_ExecuteParam = _T("-SANLE_JUEZHAN -MANUAL");
+	m_ExecuteFile = _T("小屋决战登陆器.exe");   //必须与登录器名字一致
+	m_ExecuteParam = _T("-SANLE_JUEZHAN");
 	m_UpdateUrl = _T("");
 
 	m_bMouceDown = FALSE;

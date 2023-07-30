@@ -138,7 +138,7 @@ BOOL CAutoUpdateClientApp::InitInstance()
 	}
 
 	//AfxMessageBox(_T("AutoUpdate - 分离前的updateurl: ") + sCommond); //xiaowujz.com
-
+	/**
 	if(StringContainOtherString(sCommond,_T("-MANUAL"))) { 
 		//AfxMessageBox(_T("检测到MANNUL, 是新版本")); //xiaowujz.com
 
@@ -152,6 +152,7 @@ BOOL CAutoUpdateClientApp::InitInstance()
 		AfxMessageBox(_T("你正在用旧版本的客户端，请运行新版登陆器")); //xiaowujz.com
 		return false;
 	}
+	**/
 
 	CAutoUpdateClientDlg dlg;
 	dlg.SetUpdateUrl(strUrl);
