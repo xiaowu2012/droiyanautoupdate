@@ -474,7 +474,7 @@ bool CUpdateFiles::SaveToXMLFile(TCHAR* pszFileName)
 		CTime t = CTime::GetCurrentTime();
 		sprintf(szDate, "%.4u-%.2u-%.2u %.2u:%.2u:%.2u", t.GetYear(), t.GetMonth(), t.GetDay(),
 			t.GetHour(), t.GetMinute(), t.GetSecond());
-		sprintf(szText, XML_PRODUCT_HEADER, "小屋决战更新程序", szDate, m_listFile.size());
+		sprintf(szText, XML_PRODUCT_HEADER, "啄木鸟决战更新程序", szDate, m_listFile.size());
 		f.Write(szText, (UINT)strlen(szText));
 
 		char szXMLStr[1024];
