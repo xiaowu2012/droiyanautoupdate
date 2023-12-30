@@ -771,7 +771,7 @@ CAutoUpdateClientDlg::CAutoUpdateClientDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDI_APPMAIN);
 	m_bNeedExecute = FALSE;
-	m_ExecuteFile = _T("小屋决战登陆器.exe");   //必须与登录器名字一致
+	m_ExecuteFile = _T("啄木鸟决战登陆器.exe");   //必须与登录器名字一致
 	m_ExecuteParam = _T("-SANLE_JUEZHAN");
 	m_UpdateUrl = _T("");
 
@@ -966,7 +966,7 @@ void CAutoUpdateClientDlg::StartUpload()
 
 	
 	CServer pServer ;
-	pServer.m_sServerName = _T("小屋决战更新程序");//自动更新显示
+	pServer.m_sServerName = _T("啄木鸟决战更新程序");//自动更新显示
 	pServer.m_sUpdateFileXmlURL = UrlPath;
 
 

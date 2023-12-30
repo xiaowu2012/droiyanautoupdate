@@ -96,13 +96,13 @@ BEGIN
     BEGIN
         BLOCK "080403a8"
         BEGIN
-            VALUE "CompanyName", "小屋决战 开发团队"
-            VALUE "FileDescription", "小屋决战 自动更新客户端"
+            VALUE "CompanyName", "啄木鸟决战 开发团队"
+            VALUE "FileDescription", "啄木鸟决战 自动更新客户端"
             VALUE "FileVersion", "1.0.0.4"
-            VALUE "InternalName", "小屋决战自动更新.exe"
-            VALUE "LegalCopyright", "小屋决战。保留所有权利。"
-            VALUE "OriginalFilename", "小屋决战自动更新.exe"
-            VALUE "ProductName", "小屋决战 自动更新"
+            VALUE "InternalName", "啄木鸟决战自动更新.exe"
+            VALUE "LegalCopyright", "啄木鸟决战。保留所有权利。"
+            VALUE "OriginalFilename", "啄木鸟决战自动更新.exe"
+            VALUE "ProductName", "啄木鸟决战 自动更新"
             VALUE "ProductVersion", "1.0.0.4"
         END
     END
